@@ -26,7 +26,11 @@ public class Ejemplo08 {
             System.out.printf("Resultado %.2f", resultado2);
         }
         catch(Exception e){
+            /* Aqui la palabra exception es donde captura cualquier error que se
+            ejecute, este exception captura todo porque es la base de casi todas
+            las excepciones que hay.
             
+            */
             System.out.printf(" Lo sentimos hay un error de tipo %s\n", e);
         
         }

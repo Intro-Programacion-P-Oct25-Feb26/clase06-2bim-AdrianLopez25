@@ -28,6 +28,10 @@ public class Ejemplo051 {
 
                 System.out.printf("Resultado %d\n", resultado);
                 bandera = false;
+                /* Se genera un ciclo en donde el usurio va dar valor a dos 
+                variables que sean correctas y le botaran el resultado, mientras
+                los datos no sean correctos le van a volver a pedir los datos.
+                */
             } catch (InputMismatchException inputMismatchException) {
 
                 System.out.printf("Existe un error de tipo %s\n",
